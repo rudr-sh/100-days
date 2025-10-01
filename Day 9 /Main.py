@@ -1,18 +1,23 @@
-student_scores = {
-    'Harry': 88,
-    'Ron': 78,
-    'Hermione': 95,
-    'Draco': 75,
-    'Neville': 60
-}
-student_grades ={}
-for key in student_scores:
-    if 70 >= student_scores[key]:
-        student_grades[key] = "Fail"
-    elif 71<= student_scores[key]<=80:
-        student_grades[key] = "Acceptable"
-    elif 81<= student_scores[key] <= 90:
-        student_grades[key] = "Exceeds Expectations"
-    else:
-        student_grades[key] = "Outstanding"
-print(student_grades)
+import logo
+full ='yes'
+bidders = {}
+def auction(name,money):
+        bidders[name] = money    
+while full == 'yes':
+    print(logo.logo)
+    print("Welcome to the secret auction program.")
+    Name = input("What is your name?: ")
+    Bid = int(input("What's your bid?: $ "))
+    full = input("Are there any other bidders? Type 'yes' or 'no'.\n").lower()
+    print("\n"*100)
+    auction(Name,Bid)
+winner = {}
+money = 0
+for key in bidders:
+    if bidders[key] > money:
+        winner = {}
+        money = bidders[key]
+        winner[key] = money
+for key in winner:
+    winner_name = key
+print(f"The winner is {key} with a bid of ${money}")

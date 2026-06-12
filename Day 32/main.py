@@ -8,6 +8,8 @@ with open("C:/Users/Rudraksh Sharma/Documents/100-days/Day 32/birthdays.csv", "r
     time = dt.datetime.now()
     today_date=time.day
     today_month=time.month
+    your_passwd=none
+    your_email=naone
     for i in range(len(birthday)):
         date = birthday.day[i]
         month=birthday.month[i]
@@ -20,5 +22,5 @@ with open("C:/Users/Rudraksh Sharma/Documents/100-days/Day 32/birthdays.csv", "r
                 letter=letter.replace("[NAME]",name)
             with smtplib.SMTP("smtp.gmail.com",587) as connection:
                 connection.starttls()
-                connection.login(user="pythonrudrsh01@gmail.com",password="mnsm bgsa gfct ckmq")
+                connection.login(user=your_email,password=your_passwd)
                 connection.sendmail(from_addr="pythonrudrsh01@gmail.com",to_addrs=birthday.email[i],msg=f"Subject: Happy Birthday {name}!!\n\n{letter}")

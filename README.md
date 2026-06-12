@@ -7,7 +7,8 @@
 
 ### 🔨 Projects
 - [Hangman Game](https://github.com/rudr-sh/100-days/tree/main/Day%207) 🎮  
-- [Caesar Cipher](https://github.com/rudr-sh/100-days/tree/main/Day%208) 🔐  
+- [Caesar Cipher](https://github.com/rudr-sh/100-days/tree/main/Day%208) 🔐
+- [Created an automated birthday email sender](https://github.com/rudr-sh/100-days/tree/main/Day%2032)  🎂
 - More coming soon from my **100 Days of Code** challenge!
 
 ### 📫 Connect with me

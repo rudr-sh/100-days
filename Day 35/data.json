@@ -1,0 +1,174 @@
+{
+    "cod": "200",
+    "message": 0,
+    "cnt": 4,
+    "list": [
+        {
+            "dt": 1784106000,
+            "main": {
+                "temp": 311.95,
+                "feels_like": 314.41,
+                "temp_min": 311.95,
+                "temp_max": 312.49,
+                "pressure": 1000,
+                "sea_level": 1000,
+                "grnd_level": 974,
+                "humidity": 31,
+                "temp_kf": -0.54,
+                "dew_point": 291.77
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": {
+                "all": 68
+            },
+            "wind": {
+                "speed": 2.16,
+                "deg": 268,
+                "gust": 3.62
+            },
+            "visibility": 10000,
+            "pop": 0.27,
+            "rain": {
+                "3h": 0.26
+            },
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2026-07-15 09:00:00"
+        },
+        {
+            "dt": 1784116800,
+            "main": {
+                "temp": 311.26,
+                "feels_like": 313.5,
+                "temp_min": 311.05,
+                "temp_max": 311.26,
+                "pressure": 999,
+                "sea_level": 999,
+                "grnd_level": 974,
+                "humidity": 32,
+                "temp_kf": 0.21,
+                "dew_point": 291.68
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": {
+                "all": 80
+            },
+            "wind": {
+                "speed": 2.89,
+                "deg": 328,
+                "gust": 3.65
+            },
+            "visibility": 10000,
+            "pop": 0.3,
+            "rain": {
+                "3h": 0.33
+            },
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2026-07-15 12:00:00"
+        },
+        {
+            "dt": 1784127600,
+            "main": {
+                "temp": 311.63,
+                "feels_like": 313.44,
+                "temp_min": 311.63,
+                "temp_max": 311.63,
+                "pressure": 999,
+                "sea_level": 999,
+                "grnd_level": 974,
+                "humidity": 30,
+                "temp_kf": 0,
+                "dew_point": 291.07
+            },
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 2.53,
+                "deg": 235,
+                "gust": 5.04
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2026-07-15 15:00:00"
+        },
+        {
+            "dt": 1784138400,
+            "main": {
+                "temp": 310.85,
+                "feels_like": 312.75,
+                "temp_min": 310.85,
+                "temp_max": 310.85,
+                "pressure": 1000,
+                "sea_level": 1000,
+                "grnd_level": 975,
+                "humidity": 32,
+                "temp_kf": 0,
+                "dew_point": 291.53
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "clouds": {
+                "all": 84
+            },
+            "wind": {
+                "speed": 3.23,
+                "deg": 231,
+                "gust": 6.59
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2026-07-15 18:00:00"
+        }
+    ],
+    "city": {
+        "id": 1273294,
+        "name": "Delhi",
+        "coord": {
+            "lat": 28.6667,
+            "lon": 77.2167
+        },
+        "country": "IN",
+        "population": 10927986,
+        "timezone": 19800,
+        "sunrise": 1784073764,
+        "sunset": 1784123457
+    }
+}

@@ -62,10 +62,4 @@ right.grid(row=1,column=1,sticky="e",padx=(0,120))
 wrong_image=PhotoImage(file="C:/Users/Rudraksh Sharma/Documents/100-days/Day 31/images/wrong.png")
 wrong=Button(image=wrong_image,command=forgot,height=100,width=100,bg=BACKGROUND_COLOR,highlightthickness=0,bd=0)
 wrong.grid(row=1,column=1,sticky="w",padx=(140,0))
-
-
-
-
-
-
 window.mainloop()
